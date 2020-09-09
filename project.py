@@ -367,7 +367,7 @@ def modifyp():
     
 def product_admin():
     global screen1
-    screen1=Tk()
+    screen1=Toplevel(screen)
     screen1.title("Product Admin")
     screen1.geometry("1350x7500+0+0")
     screen1.config(bg="cadet blue")
